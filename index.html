@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .complete-nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: whitesmoke;
+        color: rgb(24, 23, 23);
+        padding: 10px;
+        margin-top: 0px;
+      }
+      .coaching {
+        display: flex;
+        justify-content: left;
+      }
+      .logo {
+        flex-wrap: wrap;
+        background-color: darkgreen;
+        color: azure;
+        float: left;
+        border-radius: 3px;
+        height: 40px;
+        width: 40px;
+        padding: 5px;
+        margin: 5px;
+      }
+      .nav-item {
+        color: gray;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+        margin: 15px;
+        font-size: 25px;
+        list-style: none;
+        justify-content: space-evenly;
+      }
+      nav ul a {
+        text-decoration: none;
+        color: rgb(59, 55, 55);
+      }
+      .p1 {
+        flex-wrap: wrap;
+        height: 30px;
+        width: 270px;
+        background-color: lightgreen;
+        border: 2px solid green;
+        border-radius: 5px;
+        padding: 3px;
+        margin-top: 30px;
+      }
+      .color {
+        color: green;
+        font-family: "Alfa Slab One";
+        font-weight: 200;
+      }
+      .hero-section {
+        text-align: center;
+      }
+      .header-sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .hero-section {
+        /* display: flex;
+        justify-content: center; */
+        margin: 0px 50px;
+        padding: 20px;
+        background: linear-gradient(135deg, #e8fbf3, white);
+      }
+      c1 {
+        font-weight: 400;
+        margin-top: 60px;
+      }
+      .static {
+        display: flex;
+        font-size: 30px;
+        justify-content: space-evenly;
+        margin-top: 70px;
+        margin-bottom: 200px;
+        margin-left: 60px;
+      }
+      .main {
+        text-align: center;
+      }
+      .main h1 {
+        font-size: 40px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+      }
+      .main p {
+        margin-bottom: 80px;
+        font-size: 20px;
+      }
+      .card {
+        background-color: white;
+        border: 2px solid rgb(216, 214, 210);
+        border-radius: 12px;
+        height: 200px;
+        width: 450px;
+        flex-wrap: wrap;
+        margin: 15px;
+        padding: 30px;
+      }
+      .row {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 80px;
+      }
+      .img1 {
+        background-color: lightgray;
+        border-radius: 8px;
+        flex-wrap: wrap;
+        padding: 5px;
+        margin: 10px;
+      }
+      .c {
+        margin-bottom: 70px;
+        background-color: whitesmoke;
+        border-radius: 5px;
+      }
+      .pa1 {
+        background-color: rgb(129, 169, 129);
+        color: #e8fbf3;
+        flex-wrap: wrap;
+        border: 2px solid green;
+        padding: 5px;
+        border-radius: 8px;
+        text-align: center;
+
+        height: 30px;
+        width: 250px;
+      }
+      .main2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8px;
+        margin: 30px;
+      }
+      .hd1 {
+        font-size: 30px;
+        text-align: center;
+      }
+      .parag {
+        margin-bottom: 50px;
+      }
+      .cards {
+        flex-wrap: wrap;
+        height: 200px;
+        padding: 25px;
+        margin: 15px;
+        width: 400px;
+        background: linear-gradient(135deg, #e8fbf3, white);
+        border: 2px solid lightgreen;
+        border-radius: 10px;
+      }
+      .r {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+      }
+      .card-sec2 {
+        margin-bottom: 50px;
+      }
+   
+   
+   </style>
+  </head>
+  <body>
+    <div class="complete-nav">
+      <div class="coaching">
+        <div class="logo">
+          <h2>SC</h2>
+        </div>
+        <h1>Shalu coaching class</h1>
+      </div>
+      <div class="navigation">
+        <nav class="nav-bar">
+          <ul class="nav-item">
+            <li><a href="./Feature">Features</a></li>
+            <li><a href="./AiSuite">AI Suite</a></li>
+            <li><a href="./Portals">Portals</a></li>
+            <li><a href="./TechStack">Tech Stack</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="btn">
+        <button
+          type="submit"
+          style="
+            background-color: green;
+            color: white;
+            height: 30;
+            width: 60;
+            flex-wrap: wrap;
+            font-size: 20px;
+            align-items: center;
+            border-radius: 7px;
+            padding: 10px;
+            margin: 15px;
+          "
+        >
+          Login Portal ➡
+        </button>
+      </div>
+    </div>
+    <header class="hero-section">
+      <div class="header-sec">
+        <div class="p1">
+          <p>Powered by Llama 3 AI & Next.js 16</p>
+        </div>
+        <div>
+          <h1 style="font-size: 90px">
+            The <span class="color"> Smartest Way </span>to Run <br />
+            a Coaching Institute
+          </h1>
+        </div>
+        <p style="margin-top: 20px; margin-bottom: 20px; font-size: 20px">
+          Automate attendance, collect fees online, solve student doubts with AI
+          voice assistants, <br />generate PDF report cards, and manage
+          everything from a single premium dashboard.
+        </p>
+      </div>
+      <button
+        type="submit"
+        style="
+          background-color: rgb(39, 66, 39);
+          color: white;
+          border-radius: 5px;
+          margin-top: 35px;
+          margin-bottom: 30px;
+          padding: 10px;
+          height: 35px;
+          width: 250px;
+        "
+      >
+        Get Started — It's Free →
+      </button>
+      <button
+        type="submit"
+        style="
+          background-color: aliceblue;
+          color: black;
+          width: 250px;
+          margin-bottom: 30px;
+          padding: 10px;
+          height: 35px;
+          font-size: 12px;
+          border-radius: 5px;
+          flex-wrap: wrap;
+          margin-left: 10px;
+        "
+      >
+        Explore Features →
+      </button>
+      <div class="static">
+        <div class="c1">
+          <h2>5+</h2>
+          <p>Role Portal</p>
+        </div>
+        <div class="c1">
+          <h2>30+</h2>
+          <p>Feature Modules</p>
+        </div>
+        <div class="c1">
+          <h2>6</h2>
+          <p>AI Tools</p>
+        </div>
+        <div class="c1">
+          <h2>32+</h2>
+          <p>Automated Tests</p>
+        </div>
+      </div>
+    </header>
+    <section class="main">
+      <h1>Everything a Coaching Institute Needs</h1>
+      <p>
+        From student enrollment to fee collection to AI-powered doubt solving —
+        all in one platform, no third- <br />party tools required.
+      </p>
+    </section>
+    <article class="c">
+      <div class="row">
+        <div class="card">
+          <img
+            src="graduated.png"
+            alt="st"
+            height="35"
+            width="30"
+            class="img1"
+          />
+          <h2>Student Management</h2>
+          <br />
+          <p>
+            Manage student records, admissions, profiles, classes, and academic
+            information with an easy-to-use dashboard.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="business-report.png"
+            height="35"
+            width="30"
+            alt="img"
+            class="img1"
+          />
+          <h2>Attendance Tracking</h2>
+          <br />
+          <p>
+            Record daily attendance, monitor student presence, generate reports,
+            and notify parents instantly.
+          </p>
+        </div>
+        <div class="card">
+          <img src="fee.png" height="35" width="30" class="img1" alt="fee" />
+          <h2>Fee Management</h2>
+          <br />
+          <p>
+            Generate fee invoices, track payments, manage pending dues, and
+            download payment receipts with ease.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card">
+          <img
+            src="planner.png"
+            height="35"
+            width="30"
+            class="img1"
+            alt="task"
+          />
+          <h2>Homework & Assignments</h2>
+          <br />
+          <p>
+            Create homework, assignments, and projects for students with
+            submission deadlines and progress tracking.
+          </p>
+        </div>
+
+        <div class="card">
+          <img
+            src="megaphone.png"
+            height="35"
+            width="30"
+            class="img1"
+            alt="fee"
+          />
+          <h2>Announcements</h2>
+          <br />
+          <p>
+            Share important notices, event updates, exam schedules, and
+            announcements with students and parents.
+          </p>
+        </div>
+
+        <div class="card">
+          <img
+            src="analysis.png"
+            height="35"
+            width="30"
+            class="img1"
+            alt="fee"
+          />
+          <h2>Reports & Analytics</h2>
+          <br />
+          <p>
+            View student performance, attendance summaries, fee reports, and
+            academic insights through interactive charts.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="card">
+          <img
+            src="business-report.png"
+            height="35"
+            width="30"
+            alt="img"
+            class="img1"
+          />
+          <h2>Learning Resources</h2>
+          <br />
+          <p>
+            Upload notes, study materials, videos, PDFs, and learning resources
+            for students to access anytime.
+          </p>
+        </div>
+
+        <div class="card">
+          <img
+            src="no-wifi.png"
+            height="35"
+            width="30"
+            class="img1"
+            alt="task"
+          />
+          <h2>Secure Access</h2>
+          <br />
+          <p>
+            Protect your data with secure login, role-based permissions, and
+            reliable user authentication.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Parent Portal</h2>
+          <img
+            src="graduated.png"
+            alt="st"
+            height="35"
+            width="30"
+            class="img1"
+          />
+          <br />
+          <p>
+            Allow parents to monitor attendance, academic progress, homework,
+            and fee payment status in one place.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="card">
+          <img
+            src="planner.png"
+            height="35"
+            width="30"
+            class="img1"
+            alt="task"
+          />
+          <h2>Mobile Friendly</h2>
+          <br />
+          <p>
+            Enjoy a fast, responsive experience on desktops, tablets, and
+            smartphones from anywhere.
+          </p>
+        </div>
+
+        <div class="card">
+          <img
+            src="business-report.png"
+            height="35"
+            width="30"
+            alt="img"
+            class="img1"
+          />
+          <h2>Exam Management</h2>
+          <br />
+          <p>
+            Schedule exams, publish timetables, record marks, and generate
+            report cards with ease.
+          </p>
+        </div>
+
+        <div class="card">
+          <img
+            src="graduated.png"
+            alt="st"
+            height="35"
+            width="30"
+            class="img1"
+          />
+          <h2>Teacher Management</h2>
+          <br />
+          <p>
+            Manage teacher profiles, class schedules, subject assignments, and
+            daily teaching activities efficiently.
+          </p>
+        </div>
+      </div>
+    </article>
+    <br />
+    <section>
+      <div class="main2">
+        <div class="pa1">
+          <p>Powered by Groq Llama-3</p>
+        </div>
+        <div class="hd1">
+          <h1>Next-Gen AI Tools Built In</h1>
+          <p class="parag">
+            Not just a management tool — an intelligent teaching assistant that
+            speaks, sees,<br />
+            reviews code, and generates reports.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="card-sec2">
+      <div class="r">
+        <div class="cards">
+          <img src="mic.png" height="35" width="30" class="img1" alt="fee" />
+          <h2>Voice Assistant (STT/TTS)</h2>
+          <br />
+          <p>
+            Students speak their doubts; AI responds in text and voice.
+            Auto-speak toggle lets them control when AI talks.
+          </p>
+        </div>
+        <div class="cards">
+          <img
+            src="business-report.png"
+            height="35"
+            width="30"
+            alt="img"
+            class="img1"
+          />
+          <h2>OCR Vision Solver</h2>
+          <br />
+          <p>
+            Upload photos of handwritten equations or diagrams. AI interprets
+            and solves problems step-by-step.
+          </p>
+        </div>
+        <div class="cards">
+          <img
+            src="business-report.png"
+            height="35"
+            width="30"
+            alt="img"
+            class="img1"
+          />
+          <h2>Code Review Sandbox</h2>
+          <br />
+          <p>
+            Paste JavaScript, Python, C++, or SQL code. Get bug analysis,
+            complexity insights, and improvement suggestions.
+          </p>
+        </div>
+      </div>
+      <div class="r">
+        <div class="cards">
+          <img
+            src="business-report.png"
+            height="35"
+            width="30"
+            alt="img"
+            class="img1"
+          />
+          <h2>AI Exam Generator</h2>
+          <br />
+          <p>
+            Create quizzes, question papers, and practice tests automatically
+            based on the selected subject and difficulty level.
+          </p>
+        </div>
+
+        <div class="cards">
+          <img
+            src="analysis.png"
+            height="35"
+            width="30"
+            class="img1"
+            alt="fee"
+          />
+          <h2>Performance Analytics</h2>
+          <br />
+          <p>
+            Track student progress with AI-powered insights, performance trends,
+            and personalized improvement recommendations.
+          </p>
+        </div>
+
+        <div class="cards">
+          <img
+            src="planner.png"
+            height="35"
+            width="30"
+            alt="img"
+            class="img1"
+          />
+          <h2>Smart Attendance Alerts</h2>
+          <br />
+          <p>
+            Automatically notify students and parents about low attendance,
+            absences, and important attendance updates.
+          </p>
+        </div>
+      </div>
+      <div class="r">
+        <div class="cards">
+          <img
+            src="analysis.png"
+            height="35"
+            width="30"
+            class="img1"
+            alt="fee"
+          />
+          <h2>Multi-Language Support</h2>
+          <br />
+          <p>
+            Access the platform in multiple languages, making learning and
+            communication easier for students, teachers, and parents.
+          </p>
+        </div>
+
+        <div class="cards">
+          <img
+            src="megaphone.png"
+            height="35"
+            width="30"
+            alt="img"
+            class="img1"
+          />
+          <h2>Cloud Data Backup</h2>
+          <br />
+          <p>
+            Securely store and back up school records in the cloud with
+            automatic synchronization and quick data recovery.
+          </p>
+        </div>
+
+        <div class="cards">
+          <img
+            src="business-report.png"
+            height="35"
+            width="30"
+            alt="img"
+            class="img1"
+          />
+          <h2>24/7 AI Assistance</h2>
+          <br />
+          <p>
+            Get round-the-clock AI support for academic queries, school
+            management tasks, and personalized learning guidance.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
